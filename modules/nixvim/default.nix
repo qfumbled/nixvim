@@ -1,4 +1,10 @@
 {
-  # Import all your configuration modules here
-  imports = [ ./bufferline.nix ];
+  imports = [ ./bufferline.nix ./colors/paradise.nix ];
+
+  config = {
+    theme = "paradise";
+    extraConfigLua = ''
+      _G.theme = "paradise"
+    '';
+  };
 }
