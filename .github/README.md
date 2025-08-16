@@ -7,7 +7,7 @@
 My Neovim config using nixvim.
 
 > [!NOTE]  
-> The colorscheme in these screenshots are [paradise](https://github.com/paradise-theme/paradise) and radium
+> The colorscheme in these screenshots are [test](https://github.com/kewin-y) and radium
 
 <img src="assets/1.png" alt="nvim">
 
