@@ -1,5 +1,5 @@
 {
-  description = "webmessia-h's Neovim configuration";
+  description = "wug's nixvim flake";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -26,7 +26,8 @@
     };
   };
 
-  outputs = { flake-parts, ... }@inputs:
+  outputs =
+    { flake-parts, ... }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [
         "x86_64-linux"

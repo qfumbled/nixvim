@@ -9,8 +9,8 @@
         ignore = [ ]; # List of LSP servers to ignore
         display = {
           priority = 30; # Ordering priority for LSP notification group
-          }; # Override options from the default notification config
-        };
+        }; # Override options from the default notification config
+      };
       notification = {
         filter = "info"; # “off”, “error”, “warn”, “info”, “debug”, “trace”
         window = {

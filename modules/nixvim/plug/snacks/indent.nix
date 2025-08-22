@@ -1,6 +1,6 @@
 { config, lib, ... }:
 let
-  colors = import ../../colors/paradise.nix { }; #../../colors/${config.theme}.nix { };
+  colors = import ../../colors/paradise.nix { }; # ../../colors/${config.theme}.nix { };
 in
 {
   plugins.snacks = {
