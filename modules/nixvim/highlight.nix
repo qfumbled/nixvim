@@ -1,6 +1,6 @@
 { config, lib, ... }:
 let
-	colors = import ../../../modules/nixvim/colors/${config.theme}.nix { };
+	colors = import ../../modules/nixvim/colors/${config.theme}.nix { };
 in
 	{
 	config = lib.mkIf config.colorschemes.base16.enable {
