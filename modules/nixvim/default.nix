@@ -55,7 +55,7 @@
   # Theme options
   options = {
     theme = lib.mkOption {
-      default = lib.mkDefault "test";
+      default = lib.mkDefault "paradise";
       type = lib.types.enum [
         "paradise"
         "far"
