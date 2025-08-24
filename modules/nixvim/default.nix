@@ -55,17 +55,18 @@
   # Theme options
   options = {
     theme = lib.mkOption {
-      default = lib.mkDefault "paradise";
+      default = lib.mkDefault "far"; # change
       type = lib.types.enum [
         "paradise"
         "far"
         "test"
+        # extras
       ];
     };
   };
   # Configuration
   config = {
-    theme = "test";
+    theme = "far"; # change also you can make your own scheme
     extraConfigLua = ''
       	  _G.theme = "${config.theme}"
       	  '';
